@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para ti — Feliz cumpleaños</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="particles" aria-hidden="true"></div>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Una pequeña carta para alguien muy especial</p>
+      <h1>Feliz cumpleaños,<br><span>bonita.</span></h1>
+      <p class="hero-text">
+        Hoy no quería dejar pasar el día sin decirte algo que quizá no digo
+        lo suficiente: deseo de corazón que la vida te trate bonito.
+      </p>
+      <a class="scroll-btn" href="#carta">leer la carta ↓</a>
+    </section>
+
+    <section id="carta" class="letter-section">
+      <div class="paper">
+        <div class="paper-top">✦</div>
+        <p class="date">Para ti, en este día especial</p>
+        <h2>Hay cosas que merecen ser dichas.</h2>
+
+        <p>
+          Hoy es tu cumpleaños y, aunque las cosas entre nosotros hayan cambiado,
+          hay algo que no quiero que cambie: mis ganas de verte bien. Por eso hice
+          esta pequeña página. No para complicar las cosas, ni para pedirte nada,
+          sino simplemente para regalarte unas palabras que salen sinceramente de mí.
+        </p>
+
+        <p>
+          Hemos compartido momentos que, por más que pase el tiempo, siguen teniendo
+          un lugar especial en mi memoria. Hay recuerdos que aparecen de repente,
+          una canción, una foto, un lugar, una conversación... y por unos segundos
+          vuelvo a sentir esa tranquilidad de cuando estábamos juntos.
+        </p>
+
+        <p>
+          Sé que no todo fue perfecto. Sé que tuvimos errores, momentos difíciles y
+          cosas que quizá pudimos hacer diferente. Pero también sé que hubo momentos
+          verdaderamente bonitos, y no quiero recordar nuestra historia solamente por
+          cómo terminó. Prefiero quedarme con todo lo bueno que aprendí contigo y con
+          la enorme gratitud de haberte conocido.
+        </p>
+
+        <p>
+          Y sí, todavía te quiero. No voy a fingir que no. Pero querer a alguien
+          también significa aprender a desearle felicidad aunque la vida tome caminos
+          distintos. No sé qué nos depare el futuro, ni pretendo escribirlo por ti.
+          Lo único que puedo decirte es que siempre voy a desear que encuentres
+          personas, lugares y momentos que te hagan sentir querida, tranquila y feliz.
+        </p>
+
+        <p>
+          Espero que este nuevo año de tu vida venga lleno de oportunidades, de
+          risas que te duelan en la cara, de metas cumplidas, de aventuras inesperadas
+          y de noches en las que puedas acostarte pensando: “qué bonito está siendo
+          mi vida”.
+        </p>
+
+        <p>
+          También espero que nunca olvides lo mucho que vales. Que no permitas que
+          un mal día, una mala persona o una mala etapa te haga pensar lo contrario.
+          Tienes derecho a crecer, cambiar, equivocarte, volver a empezar y construir
+          la vida que quieras.
+        </p>
+
+        <p>
+          Gracias por los recuerdos. Gracias por las risas. Gracias por los momentos
+          en los que me hiciste sentir acompañado. Gracias incluso por las cosas
+          difíciles, porque también de ellas aprendí. Una parte de quien soy hoy
+          existe gracias a todo lo que vivimos.
+        </p>
+
+        <p class="signature-text">
+          Así que hoy, desde donde me toca estar, solamente quiero decirte:
+          <strong>feliz cumpleaños.</strong> Ojalá sonrías muchísimo hoy. Ojalá te
+          consientan, te abracen, comas algo rico y termines el día sabiendo que
+          alguien, aunque sea a la distancia, está deseando genuinamente que te vaya
+          increíble.
+        </p>
+
+        <div class="signature">
+          <span>Con cariño,</span>
+          <strong>alguien que todavía te quiere mucho.</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="memories">
+      <div class="section-heading">
+        <p class="eyebrow">Nuestros recuerdos</p>
+        <h2>Un momento, una historia.</h2>
+        <p>Usa las flechas para cambiar de recuerdo. Cada foto tiene algo diferente que decir.</p>
+      </div>
+
+      <div class="memory-card">
+        <div class="photo-wrap">
+          <img id="memoryPhoto" src="fotos/recuerdo-1.png" alt="Recuerdo especial">
+          <div class="photo-number"><span id="currentNumber">01</span> / 06</div>
+        </div>
+
+        <div class="memory-content">
+          <span id="memoryLabel">RECUERDO 01</span>
+          <h3 id="memoryTitle">Hay momentos que se quedan.</h3>
+          <p id="memoryText">
+            Esta foto me recuerda que hubo una etapa en la que simplemente estar
+            juntos hacía que cualquier lugar se sintiera especial. Tal vez para
+            alguien más sea solamente una foto, pero para mí guarda una pequeña
+            parte de una historia que nunca voy a considerar insignificante.
+          </p>
+
+          <div class="controls">
+            <button id="prevBtn" aria-label="Recuerdo anterior">←</button>
+            <div class="dots" id="dots"></div>
+            <button id="nextBtn" aria-label="Siguiente recuerdo">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-message">
+      <div class="final-glow"></div>
+      <p class="eyebrow">Y antes de terminar...</p>
+      <h2>No quiero que esta carta sea una despedida.</h2>
+      <p>
+        Quiero que sea simplemente un recordatorio de que, independientemente de
+        dónde nos encuentre la vida, me alegra haber coincidido contigo. Espero que
+        sigas creciendo, que persigas todo aquello que te haga ilusión y que nunca
+        dejes de ser tú.
+      </p>
+      <p>
+        Si algún día miras atrás y recuerdas esta etapa, espero que además de los
+        errores puedas recordar las sonrisas. Yo voy a hacerlo así.
+      </p>
+      <div class="birthday">Feliz cumpleaños <span>♥</span></div>
+      <p class="small">Que te vaya bonito. Siempre.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
